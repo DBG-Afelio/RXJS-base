@@ -1,4 +1,4 @@
-pipe<form [formGroup]="form">
+<form [formGroup]="form">
     <input type="text" formControlName="timer" name="timer" [value]="timer$ | async">
     <input type="button" (click)="go()" value="go"/>
     <input type="button" (click)="stop()" value="stop"/>
